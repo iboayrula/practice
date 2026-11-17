@@ -31,16 +31,20 @@
 #  then any variable inside { } gets filled in.
 
 # TASK 1: Fill in your own values (replace each ___ ).
-my_name = "___"           # your name, in quotes
-my_age = 0                # your age, a number, no quotes
-likes_coding = False      # change to True if you're enjoying this :)
+my_name = "Ibo"           # your name, in quotes
+my_age = 37                # your age, a number, no quotes
+likes_coding = True      # change to True if you're enjoying this :)
 
 # TASK 2: Make a sentence using an f-string.
 #   It should read exactly like:  My name is Ibo and I am 30 years old.
 #   (with your own name and age, using the variables above)
-sentence = "___"
+sentence = "my_name, my_age ,likes_coding"
+
+sentence = f"My name is {my_name} and I am {my_age} years old."
 
 print(sentence)
+       
+
 
 
 # ---------------------------------------------------------------------
