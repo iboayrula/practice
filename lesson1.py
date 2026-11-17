@@ -69,23 +69,22 @@ print(sentence)
 #  and its return value goes back to the AI.
 
 # TASK 3: Finish this function so it returns  a + b.
-def add(a, b):
-    pass  # delete "pass" and write:  return a + b
+def add (a,b):
+    return (a+b)  # delete "pass" and write:  return a + b
 
 
 # TASK 4: Write a function that turns Celsius into Fahrenheit.
 #   Formula:  fahrenheit = celsius * 9 / 5 + 32
 #   Example:  to_fahrenheit(100) should return 212.0
-def to_fahrenheit(celsius):
-    pass
+def to_fahrenheit(celsius): #fahrenheit = celsius * 9 / 5 + 32
+    return (celsius) * 9 / 5 + 32
 
 
 # TASK 5: Write a function that builds a greeting with TWO parameters.
 #   Example:  welcome("Ibo", "Sofia")  should return
 #             "Welcome Ibo, how is the weather in Sofia?"
 def welcome(name, city):
-    pass
-
+    return (f"Welcome {name}, how is the weather in {city}?")
 
 # ---------------------------------------------------------------------
 #  PART 3: IF / ELSE  (making decisions)
